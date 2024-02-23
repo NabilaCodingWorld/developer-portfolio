@@ -183,3 +183,32 @@ li {
 hr {
   margin: 28px 0;
 }
+
+/* footer */
+footer {
+  background: #fff8f3;
+  margin-top: 80px;
+  display: flex;
+  /* justify-content: space-between; */
+  gap: 34px;
+  padding: 100px;
+}
+
+.footer-description {
+  margin: 18px 0;
+  color: gray;
+}
+
+input {
+  padding: 20px;
+  border: 0;
+  margin-top: 20px;
+  border: 50px;
+  width: 350px;
+  display: block;
+}
+
+textarea {
+  margin-top: 20px;
+  padding: 20px;
+}
