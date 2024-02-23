@@ -4,9 +4,14 @@
   font-family: sans-serif;
 }
 
+/* navbar */
+
 header {
   background: #fff8f3;
   padding: 10px 0;
+  background-image: url("/images/developer.png"), url("/images/header_bg.png");
+  background-repeat: no-repeat;
+  background-position: left, bottom right;
 }
 
 nav {
@@ -14,6 +19,7 @@ nav {
   justify-content: space-between;
   margin: 20px 100px;
   align-items: center;
+  padding-bottom: 30px;
 }
 
 .header-text {
@@ -42,4 +48,41 @@ li {
   border-radius: 5px;
   color: white;
   font-weight: 500;
+}
+
+/* banner */
+
+.banner {
+  display: flex;
+  align-items: center;
+  margin: 10px 100px;
+  gap: 160px;
+}
+
+img {
+  width: 400px;
+}
+
+.banner-text {
+  margin-bottom: 12px;
+}
+
+.banner-name {
+  margin-bottom: 12px;
+  font-weight: 800;
+}
+
+.banner-description {
+  margin-bottom: 12px;
+  color: gray;
+}
+
+.banner-contact {
+  background: white;
+  color: #fd6e0a;
+  padding: 10px 40px;
+  /* border: 0; */
+  border-color: #fd6e0a;
+  border-radius: 5px;
+  margin-left: 15px;
 }
