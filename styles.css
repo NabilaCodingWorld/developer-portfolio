@@ -59,7 +59,7 @@ li {
   gap: 160px;
 }
 
-img {
+.image {
   width: 400px;
 }
 
@@ -85,4 +85,101 @@ img {
   border-color: #fd6e0a;
   border-radius: 5px;
   margin-left: 15px;
+}
+
+/* about of main */
+
+.about {
+  background: #fff8f3;
+  margin: 100px 150px;
+  border-radius: 5px;
+  text-align: center;
+  padding: 100px 150px;
+}
+
+.about-header {
+  font-weight: 500;
+  margin-bottom: 12px;
+}
+
+.about-description {
+  color: gray;
+  margin-bottom: 10px;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.info-text {
+  color: gray;
+  margin-bottom: 5px;
+}
+
+.info-description {
+  font-weight: 600;
+  color: rgb(70, 68, 68);
+}
+
+.to-do {
+  margin: 0px 150px;
+  text-align: center;
+  /* padding: 100px 150px; */
+}
+
+.to-do-text {
+  font-weight: 500;
+  margin-bottom: 12px;
+}
+
+.to-do-description {
+  color: gray;
+  margin-bottom: 5px;
+}
+
+.skill {
+  display: flex;
+  margin: 50px 100px;
+  gap: 24px;
+  /* background: rgb(245, 242, 242); */
+  padding: 10px;
+}
+
+.skill-card {
+  background: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.summary {
+  margin: 20px 150px;
+}
+
+.summary-text {
+  margin: 100px 0;
+  text-align: center;
+}
+
+.summary-design {
+  display: flex;
+  justify-content: space-between;
+  gap: 34px;
+}
+
+.summary-promo {
+  margin-top: 8px;
+  /* margin-bottom: 15px; */
+  color: gray;
+}
+
+.summary-description {
+  margin-bottom: 15px;
+  color: gray;
+}
+
+hr {
+  margin: 28px 0;
 }
