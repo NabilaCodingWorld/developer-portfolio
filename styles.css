@@ -4,6 +4,42 @@
   font-family: sans-serif;
 }
 
+header {
+  background: #fff8f3;
+  padding: 10px 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 100px;
+  align-items: center;
+}
+
+.header-text {
+  font-weight: 800;
+}
+
 .header-design {
   color: #fd6e0a;
+}
+
+ul {
+  display: flex;
+}
+
+li {
+  list-style: none;
+  display: flex;
+  margin-left: 50px;
+  align-items: center;
+}
+
+.primary {
+  background-color: #fd6e0a;
+  padding: 10px 20px;
+  border: 0;
+  border-radius: 5px;
+  color: white;
+  font-weight: 500;
 }
